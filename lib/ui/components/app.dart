@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '../pages/login_page.dart';
+import '../pages/login/login_page.dart';
 
 class App extends StatelessWidget {
   @override
@@ -48,7 +48,7 @@ class App extends StatelessWidget {
           )
         )
       ),
-      home: LoginPage()
+      home: LoginPage(null)
     );
   }
 }
